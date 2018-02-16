@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main__container {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.main__inner {
+  background-color: #CCC;
+  border: 15px solid #808080;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.main__title {
+  font-family: helvetica;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 28px;
+}
+
+.main__input-user {
+  height: 25px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.main__input-password {
+  height: 25px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.main__input-button {
+  background-color: #0D69F1;
+  color: #FFF;
+  height: 35px;
+  margin: 8px 24px 0 23px;
+}
+
+.main__input-forgot {
+  font-size: 12px;
+  margin: 8px 0 0 25px;
+}
